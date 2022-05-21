@@ -29,6 +29,8 @@ Make migration to run datebase:
 ./vendor/bin/sail artisan migrate
 ```
 
+This api was deployed for testing to AWS EC2: http://54.243.25.173
+
 ##[Postman collection link](https://www.getpostman.com/collections/da408cd5a58fa66bef60)
 
 
