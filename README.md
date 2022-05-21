@@ -1,5 +1,8 @@
 [PHP test assessment by DevelopsToday v1.1 15-12-2021](https://develops.notion.site/PHP-test-assessment-by-DevelopsToday-v1-1-15-12-2021-113d24c027aa459196647f654d0e00c2)
 
+How to use
+
+git clone https://github.com/ieqipo/laravel-api-dev-today.git
 
 
 
