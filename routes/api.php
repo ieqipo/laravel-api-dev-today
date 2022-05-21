@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\V1\PostCommentController;
+use App\Http\Controllers\V1\PostController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +19,15 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::prefix('v1')->group(function () {
+    Route::apiResource('posts', PostController::class);
+    Route::scopeBindings()->group(function (){
+        Route::apiResource('posts.comments', PostCommentController::class);
+    });
+    Route::get('posts/{post_id}/upvote', [PostController::class, 'upvote']);
+});
+
+
+
+

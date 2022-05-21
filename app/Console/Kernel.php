@@ -15,7 +15,9 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')->hourly();
+//        $schedule->command('inspire')->hourly();
+        $schedule->command('upvotes:reset')->everyFiveMinutes();
+//        $schedule->command('upvotes:reset')->daily();
     }
 
     /**
@@ -30,3 +32,12 @@ class Kernel extends ConsoleKernel
         require base_path('routes/console.php');
     }
 }
+/*
+sail artisan schedule:work
+
+crontab -e
+sudo nano /etc/crontab
+sudo cat /etc/crontab
+
+* * * * * cd /home/eqipo/sites/laravel_api_dev_today && sail artisan schedule:run >> /dev/null 2>&1
+ * */
