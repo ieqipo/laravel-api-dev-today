@@ -1,6 +1,6 @@
-##[PHP test assessment by DevelopsToday v1.1 15-12-2021](https://develops.notion.site/PHP-test-assessment-by-DevelopsToday-v1-1-15-12-2021-113d24c027aa459196647f654d0e00c2)
+## [PHP test assessment by DevelopsToday v1.1 15-12-2021](https://develops.notion.site/PHP-test-assessment-by-DevelopsToday-v1-1-15-12-2021-113d24c027aa459196647f654d0e00c2)
 
-##How to use
+## How to use
 
 This project was developed on linux ubuntu. 
 
@@ -29,12 +29,12 @@ Make migration to run datebase:
 ./vendor/bin/sail artisan migrate
 ```
 
-This api was deployed for testing to AWS EC2: http://54.243.25.173
+## This api was deployed for testing to AWS EC2: http://54.243.25.173
 
-[Postman collection link](https://www.getpostman.com/collections/5f56b9ac8ad3ad9283ba)
+## [Postman collection link](https://www.getpostman.com/collections/5f56b9ac8ad3ad9283ba)
 
 
-##Api developed on Laravel:
+## Api developed on Laravel:
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
